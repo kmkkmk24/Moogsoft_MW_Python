@@ -16,8 +16,8 @@ dir 		= os.path.abspath(r'E:\MonitoringScripts\MOOG_MW_PY')
 bin 		= os.path.join(dir,'bin')
 archive		= os.path.join(dir,'archive')
 Dtformat = '%m/%d/%Y %H:%M'
-MOOG_UAT_URL = 'https://loblaw-uat.moogsoft.io/graze/v1/createMaintenanceWindow'
-MOOG_PROD_URL = 'https://loblaw.moogsoft.com/graze/v1/createMaintenanceWindow'
+MOOG_UAT_URL = 'https://yourinst.moogsoft.io/graze/v1/createMaintenanceWindow'
+MOOG_PROD_URL = 'https://yourinst.moogsoft.com/graze/v1/createMaintenanceWindow'
 datestring  = time.strftime('%d%m%Y%H%M%S')
 ###############################
 #  	Sub Functions			  #
